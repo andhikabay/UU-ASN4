@@ -1,0 +1,95 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #007acc;
+}
+
+nav {
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007acc;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #005b99;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #888;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+}
+
+form input[type="submit"] {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+form input[type="submit"]:hover {
+  background-color: #005b99;
+}
+
+pre {
+  background-color: #eaeaea;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
